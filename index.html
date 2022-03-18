@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <link rel="stylesheet" href="CSS/style.css">
+
+        <title>Document</title>
+    </head>
+
+<body>
+    
+    <main>
+        
+        <div class="mascara"></div>
+
+            <p class="title">Cálculo de média</p>
+        
+            <form action="#" method="POST">
+
+                <select name="materia" id="materia" required>
+                    
+                        <option value="P.A.M">P.A.M I</option>
+                        <option value="PW II">PW II</option>
+                        <option value="DS">DS</option>
+                        <option value="SE">SE</option>
+                        <option value="BD I">BD I</option>
+                        <option value="Quimica">Quimica</option>
+                        <option value="Física">Física</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Português">Português</option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="História">História</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="APS">APS</option>
+
+                </select>
+                
+                <div class="label-float">
+                    <input type="text" placeholder=" " id="nota1"/>
+                    <label>1ª Nota</label>
+                </div>
+
+                <div class="label-float2">
+                    <input type="text" placeholder=" " id="nota2"/>
+                    <label>2ª Nota</label>
+                </div>
+
+                <div class="label-float3">
+                    <input type="text" placeholder=" " id="nota3"/>
+                    <label>3ª Nota</label>
+                </div>
+
+                <div class="label-float4">
+                    <input type="text" placeholder=" " id="nota4"/>
+                    <label>4ª Nota</label>
+                </div>
+
+                <input type="button" name="enviar" value="►" id="enviar" onclick="resultado()">
+
+            </form>
+
+
+        <div class="resultado"><p class="p-res">Resultado</p><p id="res"></p></div>
+
+
+    </main>
+
+
+    <script src="JS/app.js" type="text/javascript"></script>
+
+</body>
+
+</html>

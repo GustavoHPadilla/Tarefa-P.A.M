@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* Paleta de cores do site */
+
+    --corBackground: #8D9CA6;
+    --corExtra: #3D6373;
+    --corExtra2: #00b7ff;
+    --corExtra3: #C7D2D9;
+    --corExtra4: #164059;
+
+}
+
+body {
+    background-color: var(--corBackground);
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.mascara {
+    width: 60%;
+    height: 75%;
+    position: absolute;
+    background-color: black;
+    opacity: .7;
+    left: 50%;
+    top: 13%;
+    transform: translate(-50%);
+    border-radius: 20px;
+}
+
+.title {
+    font: 400 3rem "Poppins";
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    transform: translate(-50%);
+    background-color: var(--corExtra);
+    width: 60%;
+    text-align: center;
+    height: 13%;
+    border-radius: 20px 20px 0 0;
+    padding-top: 13px;
+}
+
+form select {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    width: 660px;
+    transform: translate(-50%);
+    background-color: var(--corExtra);
+    color: white;
+    font: normal 1em "Poppins";
+    padding: 3px 60px 3px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    height: 60px;
+    padding: 0 0 0 10px;
+}
+
+form select option {
+    background-color: #164059;
+}
+
+
+
+/* Nota 1 */
+
+.label-float {
+    position: absolute;
+    padding-top: 18px;
+    font-family: "Poppins";
+    left: 37%;
+    top: 45%;
+    transform: translate(-50%, 50%);
+}
+  
+.label-float input {
+    border: 0;
+    border-bottom: 2px solid lightgrey;
+    outline: none;
+    width: 250px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-appearance:none;
+    border-radius: 0;
+    background-color: transparent;
+    color: white;
+}
+  
+.label-float input:focus {
+    border-bottom: 2px solid var(--corExtra);
+}
+  
+.label-float input::placeholder {
+    color:transparent;
+}
+  
+.label-float label {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    color: lightgray;
+    font-size: 1.3rem;
+}
+  
+.label-float input:required:invalid + label {
+    color: red;
+}
+
+.label-float input:focus:required:invalid {
+    border-bottom: 2px solid red;
+}
+
+.label-float input:required:invalid + label:before {
+    content: '*';
+}
+
+.label-float input:focus + label, .label-float input:not(:placeholder-shown) + label {
+    font-size: 13px;
+    margin-top: 0;
+    color: var(--corExtra);
+}
+
+
+
+
+/* Nota 2 */
+
+
+
+.label-float2 {
+    position: absolute;
+    padding-top: 18px;
+    font-family: "Poppins";
+    left: 63%;
+    top: 45%;
+    transform: translate(-50%, 50%);
+}
+  
+.label-float2 input {
+    border: 0;
+    border-bottom: 2px solid lightgrey;
+    outline: none;
+    width: 250px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-appearance:none;
+    border-radius: 0;
+    background-color: transparent;
+    color: white;
+}
+  
+.label-float2 input:focus {
+    border-bottom: 2px solid var(--corExtra);
+}
+  
+.label-float2 input::placeholder {
+    color:transparent;
+}
+  
+.label-float2 label {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    color: lightgray;
+    font-size: 1.3rem;
+}
+  
+.label-float2 input:required:invalid + label {
+    color: red;
+}
+
+.label-float2 input:focus:required:invalid {
+    border-bottom: 2px solid red;
+}
+
+.label-float2 input:required:invalid + label:before {
+    content: '*';
+}
+
+.label-float2 input:focus + label, .label-float2 input:not(:placeholder-shown) + label {
+    font-size: 13px;
+    margin-top: 0;
+    color: var(--corExtra);
+}
+
+
+
+
+/* Nota 3 */
+
+
+
+.label-float3 {
+    position: absolute;
+    padding-top: 18px;
+    font-family: "Poppins";
+    left: 37%;
+    top: 55%;
+    transform: translate(-50%, 50%);
+}
+  
+.label-float3 input {
+    border: 0;
+    border-bottom: 2px solid lightgrey;
+    outline: none;
+    width: 250px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-appearance:none;
+    border-radius: 0;
+    background-color: transparent;
+    color: white;
+}
+  
+.label-float3 input:focus {
+    border-bottom: 2px solid var(--corExtra);
+}
+  
+.label-float3 input::placeholder {
+    color:transparent;
+}
+  
+.label-float3 label {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    color: lightgray;
+    font-size: 1.3rem;
+}
+  
+.label-float3 input:required:invalid + label {
+    color: red;
+}
+
+.label-float3 input:focus:required:invalid {
+    border-bottom: 2px solid red;
+}
+
+.label-float3 input:required:invalid + label:before {
+    content: '*';
+}
+
+.label-float3 input:focus + label, .label-float3 input:not(:placeholder-shown) + label {
+    font-size: 13px;
+    margin-top: 0;
+    color: var(--corExtra);
+}
+
+
+
+
+/* Nota 4 */
+
+
+
+.label-float4 {
+    position: absolute;
+    padding-top: 18px;
+    font-family: "Poppins";
+    left: 63%;
+    top: 55%;
+    transform: translate(-50%, 50%);
+}
+  
+.label-float4 input {
+    border: 0;
+    border-bottom: 2px solid lightgrey;
+    outline: none;
+    width: 250px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-appearance:none;
+    border-radius: 0;
+    background-color: transparent;
+    color: white;
+}
+  
+.label-float4 input:focus {
+    border-bottom: 2px solid var(--corExtra);
+}
+  
+.label-float4 input::placeholder {
+    color:transparent;
+}
+  
+.label-float4 label {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    color: lightgray;
+    font-size: 1.3rem;
+}
+  
+.label-float4 input:required:invalid + label {
+    color: red;
+}
+
+.label-float4 input:focus:required:invalid {
+    border-bottom: 2px solid red;
+}
+
+.label-float4 input:required:invalid + label:before {
+    content: '*';
+}
+
+.label-float4 input:focus + label, .label-float4 input:not(:placeholder-shown) + label {
+    font-size: 13px;
+    margin-top: 0;
+    color: var(--corExtra);
+}
+
+
+
+
+
+.resultado {
+    background-color: var(--corExtra);
+    width: 160px;
+    height: 110px;
+    border-radius: 8px;
+    position: absolute;
+    left: 38%;
+    top: 62%;
+    transform: translate(-50%, 50%);
+}
+
+.resultado .p-res {
+    font: normal 1rem "Poppins";
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+    background-color: #8D9CA6;
+    border-radius: 8px 8px 0 0;
+    height: 30px;
+}
+
+.resultado #res {
+    font: normal 2rem "Poppins";
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+input[type="button"] {
+    font: normal 2rem "Poppins";
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    width: 150px;
+    height: 100px;
+    background-color: var(--corExtra);
+    position: absolute;
+    left: 61.5%;
+    top: 64%;
+    transform: translate(-50%, 50%);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+input[type="button"]:hover {
+    background-color: var(--corBackground);
+    color: black;
+}
