@@ -7,20 +7,36 @@ function resultado() {
     var nota4 = document.getElementById("nota4");
 
 
-    if(nota1.value == "" || nota2.value == "" || nota3.value == "" || nota4.value == "") {
-        alert("Nenhum campo preenchido!");
+    if(nota1.value == "" && nota2.value == "" && nota3.value == "" && nota4.value == "") {
+        alert("Ambos campos não estão prenchidos!");
+    }
+
+    else if(nota1.value == ""){
+        alert("1ª Nota não prenchida!");
     }
 
     else if(nota2.value == ""){
-        alert("a");
+        alert("2ª Nota não prenchida!");
     }
 
     else if(nota3.value == ""){
-        alert("a");
+        alert("3ª Nota não prenchida!");
     }
 
     else if(nota4.value == ""){
-        alert("a");
+        alert("4ª Nota não prenchida!");
     }
+
+
+    n1 = parseFloat(nota1.value);
+    n2 = parseFloat(nota2.value);
+    n3 = parseFloat(nota3.value);
+    n4 = parseFloat(nota4.value);
+
+    var resp = document.getElementById("res");
+
+    var media = (n1 + n2 + n3 + n4) / 4;
+
+    resp.innerHTML = media;
 
 }

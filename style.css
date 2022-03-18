@@ -58,7 +58,7 @@ form select {
     position: absolute;
     left: 50%;
     top: 35%;
-    width: 660px;
+    width: 670px;
     transform: translate(-50%);
     background-color: var(--corExtra);
     color: white;
@@ -80,7 +80,7 @@ form select option {
 
 .label-float {
     position: absolute;
-    padding-top: 18px;
+    padding-top: 20px;
     font-family: "Poppins";
     left: 37%;
     top: 45%;
@@ -100,6 +100,7 @@ form select option {
     border-radius: 0;
     background-color: transparent;
     color: white;
+    font-family: "poppins";
 }
   
 .label-float input:focus {
@@ -150,7 +151,7 @@ form select option {
 
 .label-float2 {
     position: absolute;
-    padding-top: 18px;
+    padding-top: 20px;
     font-family: "Poppins";
     left: 63%;
     top: 45%;
@@ -170,6 +171,7 @@ form select option {
     border-radius: 0;
     background-color: transparent;
     color: white;
+    font-family: "poppins";
 }
   
 .label-float2 input:focus {
@@ -220,7 +222,7 @@ form select option {
 
 .label-float3 {
     position: absolute;
-    padding-top: 18px;
+    padding-top: 20px;
     font-family: "Poppins";
     left: 37%;
     top: 55%;
@@ -240,6 +242,7 @@ form select option {
     border-radius: 0;
     background-color: transparent;
     color: white;
+    font-family: "poppins";
 }
   
 .label-float3 input:focus {
@@ -290,7 +293,7 @@ form select option {
 
 .label-float4 {
     position: absolute;
-    padding-top: 18px;
+    padding-top: 20px;
     font-family: "Poppins";
     left: 63%;
     top: 55%;
@@ -310,6 +313,7 @@ form select option {
     border-radius: 0;
     background-color: transparent;
     color: white;
+    font-family: "poppins";
 }
   
 .label-float4 input:focus {
