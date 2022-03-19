@@ -8,23 +8,23 @@ function resultado() {
 
 
     if(nota1.value == "" && nota2.value == "" && nota3.value == "" && nota4.value == "") {
-        alert("Ambos campos não estão prenchidos!");
+        animacao();
     }
 
     else if(nota1.value == ""){
-        alert("1ª Nota não prenchida!");
+        animacao();
     }
 
     else if(nota2.value == ""){
-        alert("2ª Nota não prenchida!");
+        animacao();
     }
 
     else if(nota3.value == ""){
-        alert("3ª Nota não prenchida!");
+        animacao();
     }
 
     else if(nota4.value == ""){
-        alert("4ª Nota não prenchida!");
+        animacao();
     }
 
 
@@ -38,5 +38,29 @@ function resultado() {
     var media = (n1 + n2 + n3 + n4) / 4;
 
     resp.innerHTML = media;
+
+}
+
+
+
+
+function animacao() {
+
+    var caixa = document.getElementById('caixa');
+    var caixa2 = document.querySelector('.centerBox2');
+
+    if(caixa.style.display = 'none') {
+
+        caixa.style.display = 'block';
+
+        caixa.style.animation = "aparecer 2s ease";
+        caixa2.style.animation = "desaparecer 1s 5s ease";
+
+        setTimeout(function() {
+            
+            caixa.style.display = 'none';
+        }, 6000);
+
+    }
 
 }

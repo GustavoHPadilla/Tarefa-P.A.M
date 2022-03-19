@@ -407,3 +407,604 @@ input[type="button"]:hover {
     background-color: var(--corBackground);
     color: black;
 }
+
+
+@media (max-width: 1140px) {
+    form select {
+        width: 550px;
+    }
+
+}
+
+
+@media (max-width: 966px) {
+    form select {
+        width: 450px;
+    }
+
+    .label-float input {
+        width: 200px;
+    }
+    .label-float2 input {
+        width: 200px;
+    }
+    .label-float3 input {
+        width: 200px;
+    }
+    .label-float4 input {
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 784px) {
+    
+    .title {
+        font-size: 2.6rem;
+        padding-top: 18px;
+    }
+
+    form select {
+        width: 400px;
+    }
+
+    .label-float input {
+        width: 160px;
+    }
+    .label-float2 input {
+        width: 160px;
+    }
+    .label-float3 input {
+        width: 160px;
+    }
+    .label-float4 input {
+        width: 160px;
+    }
+}
+
+
+
+@media (max-width: 690px) {
+    
+    .title {
+        font-size: 2.6rem;
+        padding-top: 18px;
+    }
+
+    form select {
+        width: 340px;
+    }
+
+    .label-float input {
+        width: 160px;
+    }
+    .label-float2 input {
+        width: 160px;
+    }
+    .label-float3 input {
+        width: 160px;
+    }
+    .label-float4 input {
+        width: 160px;
+    }
+}
+
+@media (max-width: 670px) {
+    
+    .title {
+        font-size: 2.6rem;
+        padding-top: 18px;
+    }
+
+    form select {
+        width: 340px;
+    }
+
+    .label-float input {
+        width: 160px;
+    }
+    .label-float2 input {
+        width: 160px;
+    }
+    .label-float3 input {
+        width: 160px;
+    }
+    .label-float4 input {
+        width: 160px;
+    }
+
+    .resultado {
+        left: 37%;
+    }
+
+    input[type="button"] {
+        left: 63.7%;
+    }
+
+}
+
+@media (max-width: 620px) {
+    
+    .title {
+        font-size: 2.3rem;
+        padding-top: 22px;
+    }
+
+    form select {
+        width: 300px;
+    }
+
+    .label-float input {
+        width: 120px;
+    }
+    .label-float2 input {
+        width: 120px;
+    }
+    .label-float3 input {
+        width: 120px;
+    }
+    .label-float4 input {
+        width: 120px;
+    }
+
+    .resultado {
+        left: 37%;
+        top: 64%;
+        width: 130px;
+        height: 100px;
+    }
+
+    .resultado .p-res {
+        font-size: 1rem;
+    }
+
+    .resultado #res {
+        font-size: 2rem;
+    }
+
+    input[type="button"] {
+        left: 63%;
+        width: 130px;
+    }
+
+}
+
+@media (max-width: 526px) {
+    
+    .title {
+        font-size: 2rem;
+        padding-top: 28px;
+    }
+
+    form select {
+        width: 260px;
+        height: 50px;
+    }
+
+    .label-float input {
+        width: 100px;
+    }
+    .label-float2 input {
+        width: 100px;
+    }
+    .label-float3 input {
+        width: 100px;
+    }
+    .label-float4 input {
+        width: 100px;
+    }
+
+    .resultado {
+        left: 37%;
+        top: 64%;
+        width: 120px;
+        height: 90px;
+    }
+
+    .resultado .p-res {
+        font-size: 1rem;
+    }
+
+    .resultado #res {
+        font-size: 2rem;
+        padding-top: 8px;
+    }
+
+    input[type="button"] {
+        left: 63%;
+        width: 110px;
+        height: 90px;
+    }
+
+}
+
+
+
+@media (max-width: 460px) {
+    
+    .title {
+        font-size: 1.7rem;
+        padding-top: 30px;
+    }
+
+    form select {
+        width: 230px;
+        height: 50px;
+    }
+
+    .label-float input {
+        width: 100px;
+    }
+    .label-float2 input {
+        width: 100px;
+    }
+    .label-float3 input {
+        width: 100px;
+    }
+    .label-float4 input {
+        width: 100px;
+    }
+
+    .resultado {
+        left: 37%;
+        top: 64%;
+        width: 110px;
+        height: 80px;
+    }
+
+    .resultado .p-res {
+        font-size: 1rem;
+    }
+
+    .resultado #res {
+        font-size: 1.6rem;
+        padding-top: 8px;
+    }
+
+    input[type="button"] {
+        left: 63%;
+        width: 100px;
+        height: 80px;
+    }
+
+}
+
+
+
+
+@media (max-width: 410px) {
+    
+    .title {
+        font-size: 1.5rem;
+        padding-top: 33px;
+    }
+
+    form select {
+        width: 200px;
+        height: 50px;
+        top: 30%;
+    }
+
+
+    .label-float input {
+        width: 190px;
+    }
+    .label-float2 input {
+        width: 190px;
+    }
+    .label-float3 input {
+        width: 190px;
+    }
+    .label-float4 input {
+        width: 190px;
+    }
+
+
+    .label-float {
+        top: 35%;
+        left: 50%;
+    }
+    .label-float2 {
+        top: 42%;
+        left: 50%;
+    }
+    .label-float3 {
+        top: 49%;
+        left: 50%;
+    }
+    .label-float4 {
+        top: 56%;
+        left: 50%;
+    }
+
+
+    .resultado {
+        left: 37%;
+        top: 70%;
+        width: 100px;
+        height: 70px;
+    }
+
+    .resultado .p-res {
+        font-size: 1rem;
+    }
+
+    .resultado #res {
+        font-size: 1.2rem;
+        padding-top: 8px;
+    }
+
+    input[type="button"] {
+        top: 70%;
+        left: 64%;
+        width: 90px;
+        height: 70px;
+    }
+
+}
+
+
+
+@media (max-width: 320px) {
+    
+    .title {
+        font-size: 1.1rem;
+        padding-top: 40px;
+    }
+
+    form select {
+        width: 160px;
+        height: 40px;
+        top: 30%;
+    }
+
+
+    .label-float input {
+        width: 150px;
+    }
+    .label-float2 input {
+        width: 150px;
+    }
+    .label-float3 input {
+        width: 150px;
+    }
+    .label-float4 input {
+        width: 150px;
+    }
+
+
+    .label-float {
+        top: 35%;
+        left: 50%;
+    }
+    .label-float2 {
+        top: 42%;
+        left: 50%;
+    }
+    .label-float3 {
+        top: 49%;
+        left: 50%;
+    }
+    .label-float4 {
+        top: 56%;
+        left: 50%;
+    }
+
+
+    .resultado {
+        left: 50%;
+        top: 74%;
+        width: 120px;
+        height: 60px;
+    }
+
+    .resultado .p-res {
+        font-size: 1rem;
+    }
+
+    .resultado #res {
+        font-size: 1rem;
+        padding-top: 3px;
+    }
+
+    input[type="button"] {
+        top: 64%;
+        left: 50%;
+        width: 120px;
+        height: 60px;
+    }
+
+}
+
+
+@media (max-width: 254px) {
+    
+    .title {
+        font-size: .99rem;
+        padding-top: 40px;
+    }
+
+    form select {
+        width: 130px;
+        height: 30px;
+        top: 30%;
+    }
+
+
+    .label-float input {
+        width: 130px;
+    }
+    .label-float2 input {
+        width: 130px;
+    }
+    .label-float3 input {
+        width: 130px;
+    }
+    .label-float4 input {
+        width: 130px;
+    }
+
+
+    .label-float {
+        top: 35%;
+        left: 50%;
+    }
+    .label-float2 {
+        top: 42%;
+        left: 50%;
+    }
+    .label-float3 {
+        top: 49%;
+        left: 50%;
+    }
+    .label-float4 {
+        top: 56%;
+        left: 50%;
+    }
+
+
+    .resultado {
+        left: 50%;
+        top: 74%;
+        width: 110px;
+        height: 60px;
+    }
+
+    .resultado .p-res {
+        font-size: 1rem;
+    }
+
+    .resultado #res {
+        font-size: 1rem;
+        padding-top: 3px;
+    }
+
+    input[type="button"] {
+        top: 64%;
+        left: 50%;
+        width: 110px;
+        height: 60px;
+    }
+
+}
+
+
+
+
+/* Animação do WARNING */
+
+
+body {
+    overflow: hidden;
+}
+
+.centerBox{
+    position: absolute;
+    top: 80%;
+    left: 1%;
+	display: none;
+    animation-fill-mode: forwards;
+}
+
+.centerBox2 {
+	display: block;
+	animation-fill-mode: forwards;
+}
+
+@keyframes aparecer {
+	
+	0% {
+		transform: translateY(200px);
+	}
+
+	50% {
+		transform: translateY(0px);
+	}
+
+	100% {
+		transform: translateY(0px);
+	}
+
+}
+
+@keyframes desaparecer {
+	
+	0% {
+		transform: translateY(0px);
+	}
+
+	50% {
+		transform: translateY(-50px);
+	}
+
+	100% {
+		transform: translateY(300px);
+	}
+
+} 
+
+.categoryWrapper{
+	height: 131px;
+	width: 260px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+    background-color: #888888;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 black;
+}
+
+.tt img {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+
+.tt {
+    width: 100%;
+    height: 30px;
+    background-color: #696969;
+    top: 0;
+    position: absolute;
+    border-radius: 5px 5px 0 0;
+}
+
+.tt p {
+    font: bold .9rem "Poppins";
+    color: #F29C1F;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+
+.te {
+    font: normal .85rem "Poppins";
+    text-align: center;
+    padding: 15px 0 0 0;
+    color: white;
+}
+
+.cla {
+	width: 250px;
+	height: 8px;
+	background-color: darkgray;
+	border-radius: 3px;
+	position: absolute;
+    left: 5px;
+    top: 118px;
+	animation: ani 5s linear;
+}
+
+@keyframes ani {
+
+	0% {
+		width: 250px;
+	}
+
+	100% {
+		width: 0;
+	}
+	
+}
